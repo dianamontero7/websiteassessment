@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wagging Wheels</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+<nav class="navbar">
+    <div class="logo"><a href="index.html"><img src="logo.svg" alt="logo"/></a></div>
+
+    
+<ul class="navLinks">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+
+
+
+
+<div id="contact">
+<div id="contactUs">
+ <img src="happyfamanddogs.jpg" alt="dogs and family happy"/>
+</div>
+
+<br>
+
+<div id="formContainer">
+    <h1>Contact Us</h1>
+ <p>We'd love to hear from you! Whether you need assistance, want to <br>
+    volunteer, or have questions about donations, the Wagging Wheels <br>
+    team is here to help.</p>
+    <form id="emailForm">
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30" placeholder="Enter your message here" required></textarea>
+
+        <span id="errorMessage" style="color: red;"></span><br><br>
+
+        <input type="submit" value="Send Message" class="submitButton">
+    </form>
+</div>
+
+<div id="successMessage" style="display: none; text-align: center;">
+    <h2 id="messageSent">Message Sent Successfully!</h2>
+    <p id="redirected">You will be redirected to the homepage in 5 seconds...</p>
+    <a href="index.html"><button>Return to Homepage Now</button></a>
+</div>
+
+</div>
+
+
+<footer class="footer-contact">
+    <p>&copy; 2025 Wagging Wheels. All rights reserved. Powered by <a href="https://github.com/dianamontero7">dianamontero7 </a></p>
+</footer>
+
+<script src="script2.js"></script>
+
+</body>
+</html>
